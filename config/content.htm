@@ -6,7 +6,8 @@
 <p>本 cmsimde 網際內容管理系統的對應 Template 倉儲:</p>
 <p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a></p>
 <p style="padding-left: 30px;">此 Template 將 cmsimde 作為子目錄而非子模組, 使用者可以依照需求自行修改</p>
-<p style="padding-left: 30px;">倉儲對應網站: <a href="https://mde.tw/cmsimde_site">https://mde.tw/cmsimde_site</a></p><h1>cmsimde</h1>
+<p style="padding-left: 30px;">倉儲對應網站: <a href="https://mde.tw/cmsimde_site">https://mde.tw/cmsimde_site</a></p>
+<h1>cmsimde</h1>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
 <p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>
 <p><span style="background-color: #ccffcc;">Edit</span> - Edit page - 先選擇要編輯的單一頁面後, 再點選 Edit, 即可進入單一頁面的編輯模式.</p>
@@ -321,6 +322,147 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
 <div id="brython_div2"></div>
+<h1>LaTeX分組作業</h1>
+<p><span><span class="ui-provider pd td se te tf tg th ti tj tk tl tm tn to tp tq tr ts tt tu tv tw tx ty tz ua ub uc ud ue uf ug uh ui uj" dir="ltr">LaTeX 是一種專業的排版系統，常用於生成高品質的科技和數學文件，如學術論文、報告、書籍等。它是基於 TeX 的，由美國計算機科學家 Leslie Lamport 開發。LaTeX 提供了一套強大的命令和巨集，用於控制文件的結構、格式和樣式，使得用戶可以專注於內容而不用過多關注排版的細節。</span></span></p>
+<p>編譯分配內容(<a href="https://drive.google.com/drive/folders/1Gb6dSehC21UYexmW0k_doqVTmrQ43aR7?usp=drive_link">連結</a>)</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">\documentclass[12pt]{article}
+\usepackage{xeCJK}
+\setCJKmainfont{TW-Kai}
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm, a4paper]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{graphicx}
+%%%%正文
+\begin{document}
+\includegraphics[width=0.9\textwidth,height=0.5\textwidth]{34.png}
+\begin{center}
+\large \textbf{圖34 原型製作站物品表現2}
+\end{center}
+以下工作中心也已為模擬建立並填入所需的設備： 
+\begin{center}
+    \includegraphics[width=0.9\textwidth,height=0.5\textwidth]{35.png}
+\end{center}
+\begin{center}
+    \large 
+    \textbf{圖35 工作中心項目概覽}
+\end{center}
+\Large 
+\textbf {5.4.發展}
+\\ \hspace*{\fill} \\
+\normalsize \indent
+現在公司的基本結構已經在軟件中重新建立，可以開始模擬過程。首先，重點是使用Odoo（見圖9）的全新產品開發方面，因為這是公司第一個要創建的產品，因此評估了使用Odoo組織原型製作流程的可能性。這包括從想法到設計和原型製作的過程。然後，一旦產品已經達到可接受的原型結果，將進行關於生產過程開發的工作。當正式生產完成後，產品開發被認為是成功的。
+\clearpage
+\begin{flushleft}  
+   \Large 
+   \textbf{5.4.1. 想法 - 設計 - 產品原型} 
+\end{flushleft}
+\normalsize
+
+正如在第4章中所解釋的，產品的想法已經確立，並且已經進行了初始設計特徵和基本產品研究。這代表了Odoo軟件在現實世界中的實際應用，因為雖然Odoo具有良好的項目管理和通信應用程序，但這些應用程序是外部的庫存和製造應用程序，更重要的是，它們與工程設計CAD軟件沒有集成。在這個模擬中，將想法紙上實現，並使用Solidworks軟件將其轉化為CAD設計，生成一個在工程師計算機上本地存儲的CAD文件。
+\begin{center}
+   \includegraphics[width=0.8\textwidth,height=0.3\textwidth]{36.png}\\
+   \large 
+   \textbf{圖36 產品開發剖面圖}
+\end{center}
+
+在這一點上，可以正式開始利用Odoo軟件。第一步是了解產品項目的生產主題是什麼。在如何做到這一點方面有兩種方法：
+\begin{itemize}
+    \item 第一種方法是將原型視為最終產品的早期版本，即在開發過程中對原型進行修訂後，Odoo中創建的原型項目將與最終產品項目相同。如果原型是通過與最終生產相同的方法實現的，那麼這將是推薦的做法。這種方法的一個例子是，如果產品足夠簡單，使得產品和生產方面的開發可以一起進行。
+    \item 第二種方法是將原型視為與最終產品分開的項目 - 這是本次模擬所採取的方法。做出這個決定的主要原因是，我們的原型製作方式與最終生產方式不同，因為我們使用了3D打印技術來製作原型。
+\end{itemize}
+
+從根本開始，創建了一個名為 "PROTO Alpha Case" 的產品項目（見圖37）（Alpha Case是產品的名稱）。從這一點開始，我們將將原型產品稱為 'proto項目'。正如我們所看到的，這使得proto項目能夠得到良好的表現。由於這是一個原型，它不會被標記為可以出售或購買的東西，銷售價格將設置為0美元，因為這不重要。這個proto項目將用於連接其開發的不同方面，但目前它被獨自留下。
+\clearpage
+\includegraphics[width=0.9\textwidth,height=0.5\textwidth]{37.png}
+\begin{center}
+    \large 
+    \textbf{圖37 原型產品項目的圖像}
+\end{center}
+
+正如我們在第3章中先前所建立的，產品將由3個部件Part A、Part B和Part C組成。這些部件也需要進行原型製作，並且被創建為產品，以便它們可以添加到PROTO Alpha Case的物料清單中。最後，決定使用特定的塑料填充物（見第4.1.1節）來進行PROTO Part A、PROTO Part B和PROTO Part C的3D打印，這些也需要被添加為產品（見圖38）。\\
+\hspace*{0.6cm}
+\includegraphics[width=0.9\textwidth,height=0.35\textwidth]{38.png}
+\begin{center}
+    \large 
+    \textbf{圖38 原型產品類項目概覽}
+\end{center}
+
+在這一點上，與 Alpha Case 的原型製作相關的產品項目已經完成，這使得可以創建其相應的 BOM（物料清單）。共有3個 BOM，它們遵循 (圖39) 中的結構：
+\clearpage
+\includegraphics[width=0.9\textwidth,height=0.5\textwidth]{39.png}
+\begin{center}
+    \large
+    \textbf{圖39 原型製作的BOM圖示}
+\end{center}
+
+值得一提的是，Odoo在產品項目上使用了套件選項（見圖40），以推斷該產品是另一個產品的組件。這非常有趣，因為它自動創建了生產中產品項目之間的依賴關係。
+\begin{center}
+     \includegraphics[width=0.9\textwidth,height=0.5\textwidth]{40.png} \\
+     \large
+     \textbf{圖40 原型產品BOM（Part-A）}
+\end{center}
+\clearpage
+正如讀者所見（見圖41），在製作BOM時，很容易創建製造程序所需的具體操作項，並指定其工作中心。關於Odoo中MES的最佳功能之一是能夠基於默認持續時間追踪操作的時間。這可以根據追踪的時間動態更改，也可以手動設置。在操作項中，我們還可以添加操作的指示文件。儘管這僅限於PDF文本或連接到Google幻燈片文件的鏈接，但這是Odoo為直接連接到項目的文件管理提供的少數機會之一。
+\begin{center}
+    \includegraphics[width=1\textwidth,height=0.7\textwidth]{41.png} \\
+    \large
+    \textbf{圖41 Odoo呈現的操作項圖像（BOM Part-A）}\\
+    \includegraphics[width=0.95\textwidth,height=0.3\textwidth]{42.png} \\
+    \textbf{圖42：用於原型製作的BOM概觀}
+\end{center}
+\clearpage
+提到這種缺乏上傳機會，我們可以注意到，在製作產品項目時，沒有直接上傳與產品相關的文件到該項目的方法。在我們的情況下，我們有關於我們正在原型製作的零件的CAD文件，無法以任何方式上傳這些文件將從PLM的角度來看是完全失敗的。幸運的是，有一個解決方法。正如在第5.1.3.5節中所解釋的那樣，ECO是一個與產品項目或BOM相關聯的項目，允許上傳的文件附加到它。這是一個次要的解決方法，但基本上意味著如果我們想以任何重要的方式上傳我們的CAD文件到項目中，即使沒有進行“更改”，我們也需要發出一個ECO。
+\begin{center}
+   \includegraphics[width=1\textwidth,height=0.55\textwidth]{43.png}\\
+   \large
+   \textbf{圖43 ECO示例}
+\end{center}
+
+可以假設這是Odoo團隊在其ERP基礎上實施PLM作為外部應用程序的戰略的一部分。這是合理的，但仍然，這是該軟件界面中少數幾個不那麼直觀的方面之一。這是一個非常有價值的功能，但它有些隱藏。在創建並保存ECO之後，文件圖標才會出現在右上角（見圖43）。
+\clearpage
+\begin{center}
+    \includegraphics[width=0.95\textwidth,height=0.3\textwidth]{44.png}\\
+    \large
+    \textbf{圖44: ECO附加文件概觀}
+\end{center} 
+
+由於Odoo與CAD軟件之間沒有直接集成，上傳文件不會自動更改產品元數據。從PLM的角度來看，這不是理想的情況，但這是一個良好實施的功能。通過允許產品項目直接鏈接到不僅是一個現有的ECO，而是到過去應用於該項目的所有ECO的列表，軟件在跟蹤版本控制和開發方面做得很好。\\
+\hspace*{\fill}
+
+為了進行過程控制，可以做一些有趣的事情，例如將質量控制點添加到操作中。這允許負責人員在生產過程中就工程團隊關注的點提供反饋。在我們的案例中，我們擔心的是3D打印變形。當3D打印過程中溫度變化太大時，就會發生這種情況。為此，將創建一個質量控制點項目（見圖45），該項目將要求操作員檢查零件是否存在變形，並標記通過或不合格。
+\begin{center}
+    \includegraphics[width=1\textwidth,height=0.7\textwidth]{45.png}\\
+    \large
+    \textbf{圖45：用於原型生產的質量控制點項目}
+\end{center}
+\clearpage
+原型週期的最後一步將是生產原型進行測試和評估。在Odoo中，生產是非常直觀的，也是我們之前所做的一切結合在一起的地方。已經創建的元數據和項目允許我們啟動製造訂單（MO）（見圖46）。這反過來從BOM中列出的操作和組件中提取必要的工單。工單出現在製造操作員面前，生產可以開始/被跟踪。
+\begin{center}
+    \includegraphics[width=1\textwidth,height=0.9\textwidth]{46.png}\\
+    \large
+    \textbf{圖46：製造訂單的描繪}
+\end{center}
+
+在很大程度上，這個操作非常自動化且清晰。然而，由於從Odoo V13到Odoo V14的結構性變化，存在一些問題。很長一段時間以來，軟件通過使用一個名為“路線（Route）”的額外項目類來指示進行操作。這些是產品在庫存和製造過程中移動的基本部分，但出於某種原因，在新版本的製造方面，傾向於在BOM中內置簡化的序列數據，而放棄了這些路線。截至撰寫本文時，已有報告稱該功能存在問題和混亂，這一問題加劇了使用該功能的解釋材料要麼不存在，要麼仍在引用舊版本的軟件（其中“路線”仍在使用）。\\
+\hspace*{\fill}
+
+熱心的讀者會注意到圖47中操作可用的順序並不正確。這正是由於這個問題，目前唯一的解決方法是依賴操作員對生產順序的認識，或者在計劃選項卡中手動安排操作。在進行本文研究期間（Odoo V14之前），曾進行過熟悉化實驗，並未出現此類問題。此外，甚至在Odoo網站上也有示例，展示了路線的使用以及它們在這種情況下的用處。
+\begin{center}
+    \includegraphics[width=1\textwidth,height=0.35\textwidth]{47.png}\\
+    \large
+    \textbf{圖47: 結果工單概述}
+\end{center}
+
+問題已被其他人（見圖48）報告給Odoo公司，並且正在進行解決，希望很快能解決（畢竟這是軟件的一個非常新的版本）。話雖如此，這仍然是一個問題，即使它只是一個小問題。
+\clearpage
+\begin{center}
+    \includegraphics[width=1\textwidth,height=1.3\textwidth]{48.png}\\
+    \Large
+    \textbf{圖48：關於路線的Odoo論壇問題的圖像}
+\end{center}
+
+製造過程被重複了7次（見圖49），以模擬一小批原型進行測試和容差檢查。很少能在第一批中獲得完美的原型，因此選擇通過模擬來表示修正。在這個模擬中，問題是一個適合問題，導致PROTO Part A的尺寸變化。
+\end{document}</pre>
 <!-- editor2 結束 --><hr/>
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
