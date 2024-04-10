@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計 - w8</title><link href="./" rel="alternate"></link><link href="./feeds/w8.atom.xml" rel="self"></link><id>./</id><updated>2024-04-10T20:37:00+08:00</updated><entry><title>W8</title><link href="./41123216%202024-Spring-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-10T20:37:00+08:00</published><updated>2024-04-10T12:47:22+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-04-10:./41123216 2024-Spring-w8-blog-tutorial.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h1&gt;將字幕嵌入影片&lt;/h1&gt;
+&lt;p&gt;我負責第13及14部影片的部分，以下是連結及總結&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1eCHJ_AppDmFq2bpmvj_lTeWYR8lXBvL-?usp=sharing"&gt;第13部雲端連結&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;youtube連結:&lt;a href="https://youtu.be/UMV1rVbFA2o"&gt;https://youtu.be/UMV1rVbFA2o&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此影片主要是在說明設定倉儲時使用gitpod與個人token取得分組倉儲改版權限的過程，有以下個幾重點:&lt;/p&gt;
+&lt;p&gt;1.使用token而不是ssh來啟動gitpod。將token存在本地以供使用，且這個token只是暫時性的，因此其他人不應該能夠看到它。\
+2.使用vi編輯gitpod的配置檔案。進入編輯模式，進行上下左右移動、刪除文字以及插入token等操作。\
+3.token不需要設定太久，影片中只設定7天的有效期。在存儲token後及時刪除以避免安全風險。\
+4.gitpod啟動後有一定的時間限制，應在使用完畢後關閉計時。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1dVxBAkcll-5VJgXRM7rt3taT4C5shh5s?usp=sharing"&gt;第14部雲端連結&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;youtube連結:&lt;a href="https://youtu.be/qxS-6c3NyPw"&gt;https://youtu.be/qxS-6c3NyPw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此影片主要內容為，分組整理影片、了解影片內容、撰寫影片摘要和網誌、以及資料操作注意事項。要求團隊成員對影片進行深入理解，並在整合過程中保持組織性和溝通。以下幾個重點:&lt;/p&gt;
+&lt;p&gt;1.將影片依照分組架構整理，並在觀看時提出問題的地方，以便進行討論和解決。同時，需要在影片上加入字幕，並嵌入到分組中。\
+2.了解每週影片的內容並釋出逐字稿(txt)。影片的重要內容需要整合並重複強調。\
+3.在嵌入的影片下方以條列式方式概述影片的教學重點，並在期中自評之前完成。\
+4.每個組員每週至少寫一篇網誌，並將其整合到分組中。需要注意網誌名稱的前綴以避免蓋掉其他成員的文章。&lt;/p&gt;</content><category term="w8"></category><category term="網誌編寫"></category></entry></feed>
