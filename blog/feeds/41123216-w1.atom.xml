@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計 - 41123216-w1</title><link href="./" rel="alternate"></link><link href="./feeds/41123216-w1.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T08:15:46+08:00</updated><entry><title>41123216-W1</title><link href="./41123216-w1.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-11T08:15:46+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-02-18:./41123216-w1.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計 - 41123216-w1</title><link href="./" rel="alternate"></link><link href="./feeds/41123216-w1.atom.xml" rel="self"></link><id>./</id><updated>2024-04-14T03:41:39+08:00</updated><entry><title>41123216-W1</title><link href="./41123216-w1.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-14T03:41:39+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-02-18:./41123216-w1.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;建立個人倉儲&lt;/h1&gt;
 &lt;p&gt;https://github.com/mdecycu/cmsimde_site, 利用此倉儲作為 Template, 新增一個名稱為 cd2024 的倉儲, 並且將其 main 分支設為網頁根目錄.&lt;/p&gt;
