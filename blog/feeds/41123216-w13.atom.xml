@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計 - 41123216-w13</title><link href="./" rel="alternate"></link><link href="./feeds/41123216-w13.atom.xml" rel="self"></link><id>./</id><updated>2024-05-23T07:29:03+08:00</updated><entry><title>41123216-W13</title><link href="./41123216-w13.html" rel="alternate"></link><published>2024-05-16T18:53:00+08:00</published><updated>2024-05-23T07:29:03+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-05-16:./41123216-w13.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h1&gt;分組期末報告&lt;/h1&gt;
+&lt;p&gt;期末報告題目: 網際綜合球類競賽機器人協同設計與模擬
+競技場景中必須納入數位計時器與類比記分機構
+每場競技時間為 10 分鐘
+每隊球員機器人依照各組人數平均分為兩隊
+每位機器人球員必須同時具備踢球、取球與投球機構
+雙方陣營各有足球門與籃球框各一具
+球場中由裁判程式於開場時, 在球場正中央落下 10 球
+將球踢進對方球門者得 1 分, 將球投入對方籃框者得 5 分&lt;/p&gt;
+&lt;p&gt;利用 Solvespace 與 Siemens NX 完成鋼球平衡台零組件繪製後, 將組立件轉為 STL.&lt;/p&gt;</content><category term="41123216-w13"></category><category term="41123216網誌編寫"></category></entry></feed>
