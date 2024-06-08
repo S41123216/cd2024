@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-05-30T05:50:54-00:00</lastmod>
+<lastmod>2024-06-08T07:08:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-05-30T05:50:54-00:00</lastmod>
+<lastmod>2024-06-08T07:08:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-05-30T05:50:54-00:00</lastmod>
+<lastmod>2024-06-08T07:08:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-05-30T05:50:54-00:00</lastmod>
+<lastmod>2024-06-08T07:08:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2024-05-08T09:51:18+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./41123216-Internship assignment2.html</loc>
+<lastmod>2024-06-08T07:07:22+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./41123216-w10.html</loc>
-<lastmod>2024-05-08T09:51:18+08:00</lastmod>
+<lastmod>2024-06-08T07:01:37+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -144,6 +151,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./category/41123216-internship-assignment.html</loc>
+<lastmod>2024-06-08T15:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./category/41123216-w1.html</loc>
 <lastmod>2024-05-08T09:51:18+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -152,7 +166,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/41123216-w10.html</loc>
-<lastmod>2024-05-08T09:51:18+08:06</lastmod>
+<lastmod>2024-06-08T07:01:37+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -236,14 +250,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/41123216wang-zhi-bian-xie.html</loc>
-<lastmod>2024-05-30T14:00:00+08:06</lastmod>
+<lastmod>2024-06-08T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/bee.html</loc>
-<lastmod>2024-05-30T14:00:00+08:06</lastmod>
+<lastmod>2024-06-08T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
