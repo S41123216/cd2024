@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-08T15:00:00+08:00</updated><entry><title>41123216-Internship assignment2</title><link href="./41123216-Internship%20assignment2.html" rel="alternate"></link><published>2024-06-08T15:00:00+08:00</published><updated>2024-06-08T07:07:22+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-08:./41123216-Internship assignment2.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-13T19:00:00+08:00</updated><entry><title>41123216-W17</title><link href="./41123216-w17.html" rel="alternate"></link><published>2024-06-13T19:00:00+08:00</published><updated>2024-06-13T11:07:45+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-13:./41123216-w17.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h1&gt;w17個人課程實習評量&lt;/h1&gt;
+&lt;p&gt;評量一:
+在個人靜態網站中新增標題為 "w17", 格式為 H1 的頁面，將球員零件組件繪製過程錄為mp4，並上傳至youtube。
+https://youtu.be/wA96zS4D3a8?si=Y_qrjaTuJMKEbrRp&lt;/p&gt;
+&lt;p&gt;評量二:
+以NXOpen Python組合球員，並錄為Python Journal和mp4上傳至youtube。
+https://youtu.be/SJIMWue4MQ4?si=ZWPBxk7BLUyqoPYD&lt;/p&gt;
+&lt;p&gt;評量三:
+將球員放入 CoppeliaSim 運動場景中，讓球員可以由 ZMQ Remote API 程式控制，並利用WASD控制球員前後左右移動，同樣錄製為mp4上傳至youtube。&lt;/p&gt;</content><category term="41123216-w17"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-Internship assignment2</title><link href="./41123216-Internship%20assignment2.html" rel="alternate"></link><published>2024-06-08T15:00:00+08:00</published><updated>2024-06-08T07:07:22+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-08:./41123216-Internship assignment2.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;實習任務二 閱讀論文並摘要&lt;/h1&gt;
 &lt;p&gt;1.Construction and theoretical study
