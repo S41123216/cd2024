@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-13T19:00:00+08:00</updated><entry><title>41123216-W17</title><link href="./41123216-w17.html" rel="alternate"></link><published>2024-06-13T19:00:00+08:00</published><updated>2024-06-13T13:00:13+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-13:./41123216-w17.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123216協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T21:45:00+08:00</updated><entry><title>關於NXOpen Python Journal 程式與prt檔存放位置</title><link href="./41123216-w17-2.html" rel="alternate"></link><published>2024-06-14T21:45:00+08:00</published><updated>2024-06-14T14:07:54+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-14:./41123216-w17-2.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h1&gt;os 模組&lt;/h1&gt;
+&lt;p&gt;因為每個人的下載存放路徑不同，導致Python Journal 程式找不到對應位置的零件，因此使用os模組能夠讀取和載入零件檔案，不管下載在哪個硬碟位置都能利用Python Journal位置作為父目錄，再利用父目錄作為參考點去尋找零件，形成完整的路徑。要注意Python Journal 程式和零件要存放在同一個目錄下。&lt;/p&gt;
+&lt;h1&gt;import os 讓程式碼能夠使用 Python 的 os 模組&lt;/h1&gt;
+&lt;p&gt;以&lt;a href="https://drive.google.com/file/d/1H_3G8phwItuyaNVKIbmKAEht5jtVawWL/view?usp=sharing"&gt;這個檔案為例&lt;/a&gt;
+取得程式碼所在的目錄：
+parent_dir = os.path.dirname(os.path.abspath(&lt;strong&gt;file&lt;/strong&gt;))，表示取得包含這個腳本檔案（&lt;strong&gt;file&lt;/strong&gt;）的父目錄，並將其存儲到變數 parent_dir 中&lt;/p&gt;
+&lt;p&gt;建立檔案的路徑：
+body_path = os.path.join(parent_dir, "body.prt")，使用 os.path.join 將 parent_dir 和 "body.prt" 檔案名稱結合起來，形成 "body.prt" 檔案的完整路徑，並將其存儲到變數 body_path 中。&lt;/p&gt;
+&lt;p&gt;最後再將開啟prt的路徑改成basePart1, partLoadStatus1 = theSession.Parts.OpenBase(body_path)&lt;/p&gt;</content><category term="41123216-w17-2"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-W17</title><link href="./41123216-w17.html" rel="alternate"></link><published>2024-06-13T19:00:00+08:00</published><updated>2024-06-13T13:00:13+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-13:./41123216-w17.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;w17個人課程實習評量&lt;/h1&gt;
 &lt;p&gt;評量一:
