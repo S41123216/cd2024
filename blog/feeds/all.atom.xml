@@ -9,39 +9,38 @@
 parent_dir = os.path.dirname(os.path.abspath(&lt;strong&gt;file&lt;/strong&gt;))，表示取得包含這個腳本檔案（&lt;strong&gt;file&lt;/strong&gt;）的父目錄，並將其存儲到變數 parent_dir 中&lt;/p&gt;
 &lt;p&gt;建立檔案的路徑：
 body_path = os.path.join(parent_dir, "body.prt")，使用 os.path.join 將 parent_dir 和 "body.prt" 檔案名稱結合起來，形成 "body.prt" 檔案的完整路徑，並將其存儲到變數 body_path 中。&lt;/p&gt;
-&lt;p&gt;最後再將開啟prt的路徑改成basePart1, partLoadStatus1 = theSession.Parts.OpenBase(body_path)&lt;/p&gt;</content><category term="41123216-w17-2"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-W17</title><link href="./41123216-w17.html" rel="alternate"></link><published>2024-06-13T19:00:00+08:00</published><updated>2024-06-14T14:22:57+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-13:./41123216-w17.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;最後再將開啟prt的路徑改成basePart1, partLoadStatus1 = theSession.Parts.OpenBase(body_path)&lt;/p&gt;</content><category term="41123216-w17-2"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-W17</title><link href="./41123216-w17.html" rel="alternate"></link><published>2024-06-13T19:00:00+08:00</published><updated>2024-06-14T14:37:09+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-13:./41123216-w17.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;w17個人課程實習評量&lt;/h1&gt;
 &lt;p&gt;評量一:
 在個人靜態網站中新增標題為 "w17", 格式為 H1 的頁面，將球員零件組件繪製過程錄為mp4，並上傳至youtube。
-&lt;a href="https://youtu.be/wA96zS4D3a8?si=Y_qrjaTuJMKEbrRp"&gt;https://youtu.be/wA96zS4D3a8?si=Y_qrjaTuJMKEbrRp&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://youtu.be/wA96zS4D3a8?si=Y_qrjaTuJMKEbrRp"&gt;影片1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;評量二:
 以NXOpen Python組合球員，並錄為Python Journal和mp4上傳至youtube。
-&lt;a href="https://youtu.be/SJIMWue4MQ4?si=ZWPBxk7BLUyqoPYD"&gt;https://youtu.be/SJIMWue4MQ4?si=ZWPBxk7BLUyqoPYD&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://youtu.be/SJIMWue4MQ4?si=ZWPBxk7BLUyqoPYD"&gt;影片2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;評量三:
 將球員放入 CoppeliaSim 運動場景中，讓球員可以由 ZMQ Remote API 程式控制，並利用WASD控制球員前後左右移動，同樣錄製為mp4上傳至youtube。
-&lt;a href="https://youtu.be/yYPqMmoMdR0?si=-YvIw_j66EYNC3Uh"&gt;https://youtu.be/yYPqMmoMdR0?si=-YvIw_j66EYNC3Uh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以上參考
-&lt;a href="https://mde.tw/pj4102"&gt;https://mde.tw/pj4102&lt;/a&gt;&lt;/p&gt;</content><category term="41123216-w17"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-Internship assignment2</title><link href="./41123216-Internship%20assignment2.html" rel="alternate"></link><published>2024-06-08T15:00:00+08:00</published><updated>2024-06-08T07:07:22+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-08:./41123216-Internship assignment2.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;a href="https://youtu.be/yYPqMmoMdR0?si=-YvIw_j66EYNC3Uh"&gt;影片3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mde.tw/pj4102"&gt;以上參考&lt;/a&gt;&lt;/p&gt;</content><category term="41123216-w17"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-Internship assignment2</title><link href="./41123216-Internship%20assignment2.html" rel="alternate"></link><published>2024-06-08T15:00:00+08:00</published><updated>2024-06-14T14:32:11+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-06-08:./41123216-Internship assignment2.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;實習任務二 閱讀論文並摘要&lt;/h1&gt;
-&lt;p&gt;1.Construction and theoretical study
-研究控制理論在動態系統中的應用，以球體平衡平台為例。透過實體建構和電腦模擬對比，分析了控制理論在穩定不穩定系統時的限制，採用比例積分微分（PID）控制器，並探討各項參數對系統穩定性和性能的影響。實測結果顯示，平台能穩定球體，但存在靜態誤差和振蕩。論文分析了理論與實測結果差異的原因，包括建構誤差、元件特性和控制理論限制。未來研究方向包括使用更高精度的元件、改進控制器設計和增加平台的自由度。
+&lt;p&gt;1.Construction and theoretical study&lt;/p&gt;
+&lt;p&gt;研究控制理論在動態系統中的應用，以球體平衡平台為例。透過實體建構和電腦模擬對比，分析了控制理論在穩定不穩定系統時的限制，採用比例積分微分（PID）控制器，並探討各項參數對系統穩定性和性能的影響。實測結果顯示，平台能穩定球體，但存在靜態誤差和振蕩。論文分析了理論與實測結果差異的原因，包括建構誤差、元件特性和控制理論限制。未來研究方向包括使用更高精度的元件、改進控制器設計和增加平台的自由度。
 keyword:Ball Balancing Platform、PID Controller、Static Error、Oscillation、Control Theory&lt;/p&gt;
-&lt;p&gt;2.A real time control system for balancing a ball on a platform with FPGA parallel implementation
-一種新的基於 PID 控制器解決方案，用於提高球體在平台上實時平衡位置精度的科學和實務問題。推導了球體在平台上平衡的傳遞函數，並設計了 FPGA 上並行計算的 PID 控制器實現。自然模擬結果表明，該方法提高了球體在平台上平衡位置的精度。
+&lt;p&gt;2.A real time control system for balancing a ball on a platform with FPGA parallel implementation&lt;/p&gt;
+&lt;p&gt;一種新的基於 PID 控制器解決方案，用於提高球體在平台上實時平衡位置精度的科學和實務問題。推導了球體在平台上平衡的傳遞函數，並設計了 FPGA 上並行計算的 PID 控制器實現。自然模擬結果表明，該方法提高了球體在平台上平衡位置的精度。
 keyword:PID Controller、FPGA、VHDL、Real-time System&lt;/p&gt;
-&lt;p&gt;3.Simulation_and_Experimental_Study_of_Ball_Position
-雙軸平台上球體位置控制的模擬與實驗研究，探討了三種控制結構：PD 控制器、狀態空間回饋和帶有狀態空間回饋的狀態空間觀測器。論文建立了球體在平台上的數學模型，並分析了系統的穩定性和傳遞函數特性。此外，文章還介紹了直流電機位置迴路控制的設計，並比較了三種控制結構在模擬和實驗中的性能表現。結果顯示，帶有狀態空間觀測器的狀態空間回饋控制結構表現最佳，可以有效跟踪參考軌跡，實現球體的穩定平衡。
-keyword:PD Controller、State Space Observer、State Space Feedback、Trajectory Tracking、Position Loop Control、、、&lt;/p&gt;
-&lt;p&gt;4.Design and Implementation a Ball Balancing System for Control Theory Course
-開發一個球體平衡系統，利用微控制器和控制演算法，通過實時感測器回饋調整平台角度，使球體保持平衡。平台的傾斜會使球體因重力沿軸向滑動，而系統則會通過閉環控制和精準調整參數，最小化球體實際位置與設定點之間的誤差。專案製作了三個原型，並進行了比較，重點在合理性和成本。系統可使用伺服馬達、距離感測器、微控制器板和機械平台組裝，並通過微控制器程式設計理解和實現控制演算法。
+&lt;p&gt;3.Simulation_and_Experimental_Study_of_Ball_Position&lt;/p&gt;
+&lt;p&gt;雙軸平台上球體位置控制的模擬與實驗研究，探討了三種控制結構：PD 控制器、狀態空間回饋和帶有狀態空間回饋的狀態空間觀測器。論文建立了球體在平台上的數學模型，並分析了系統的穩定性和傳遞函數特性。此外，文章還介紹了直流電機位置迴路控制的設計，並比較了三種控制結構在模擬和實驗中的性能表現。結果顯示，帶有狀態空間觀測器的狀態空間回饋控制結構表現最佳，可以有效跟踪參考軌跡，實現球體的穩定平衡。
+keyword:PD Controller、State Space Observer、State Space Feedback、Trajectory Tracking、Position Loop Control&lt;/p&gt;
+&lt;p&gt;4.Design and Implementation a Ball Balancing System for Control Theory Course&lt;/p&gt;
+&lt;p&gt;開發一個球體平衡系統，利用微控制器和控制演算法，通過實時感測器回饋調整平台角度，使球體保持平衡。平台的傾斜會使球體因重力沿軸向滑動，而系統則會通過閉環控制和精準調整參數，最小化球體實際位置與設定點之間的誤差。專案製作了三個原型，並進行了比較，重點在合理性和成本。系統可使用伺服馬達、距離感測器、微控制器板和機械平台組裝，並通過微控制器程式設計理解和實現控制演算法。
 keyword:PID Control、Pedagogical Research、Real-time Sensory Feedback、Microcontroller&lt;/p&gt;
-&lt;p&gt;5.Ball_on_the_plate_balancing_control_system
-雙自由度球體平衡實驗平台是理解控制系統的重要工具。球體在平台上平衡的機械設計和控制演算法。該平台配備了電阻式觸控面板用於獲取球體位置數據，步進馬達配備位置感測器用於平台傾斜角度回饋數據，以及基於 AVR 微控制器的雙迴路從屬控制系統，其中包含 PID 控制器用於保持球體位置。
+&lt;p&gt;5.Ball_on_the_plate_balancing_control_system&lt;/p&gt;
+&lt;p&gt;雙自由度球體平衡實驗平台是理解控制系統的重要工具。球體在平台上平衡的機械設計和控制演算法。該平台配備了電阻式觸控面板用於獲取球體位置數據，步進馬達配備位置感測器用於平台傾斜角度回饋數據，以及基於 AVR 微控制器的雙迴路從屬控制系統，其中包含 PID 控制器用於保持球體位置。
 keyword:Resistive Touch Screen、Stepper Motor、Position Sensor、AVR Microcontroller、PID Controller、Two-loop Subordinate Control System&lt;/p&gt;
-&lt;p&gt;6.2D Ball Balancer Control using QUARC
-使用 QUARC 實作 2D 球體平衡控制系統。首先，以第一原理建立了球體在平台上的非線性運動方程式，並推導了系統的傳遞函數。接著，設計了內環伺服馬達位置控制器和外環球體位置 PID 控制器，並利用模擬驗證了控制器的性能。實驗過程中，評估了不同參數對系統響應的影響，包括設定點加權、積分器飽和與積分器防飽和。
+&lt;p&gt;6.2D Ball Balancer Control using QUARC&lt;/p&gt;
+&lt;p&gt;使用 QUARC 實作 2D 球體平衡控制系統。首先，以第一原理建立了球體在平台上的非線性運動方程式，並推導了系統的傳遞函數。接著，設計了內環伺服馬達位置控制器和外環球體位置 PID 控制器，並利用模擬驗證了控制器的性能。實驗過程中，評估了不同參數對系統響應的影響，包括設定點加權、積分器飽和與積分器防飽和。
 keyword:2D Ball Balancing、QUARC、PID Controller、Transfer Function、State Space Feedback、  State Space Observer、Integrator Anti-windup、Set-point Weighting、    Trajectory Tracking&lt;/p&gt;</content><category term="41123216-Internship assignment"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-W15</title><link href="./41123216-w15.html" rel="alternate"></link><published>2024-05-30T14:00:00+08:00</published><updated>2024-05-30T05:40:49+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-05-30:./41123216-w15.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;各組按照分配進行作業&lt;/h1&gt;</content><category term="41123216-w15"></category><category term="41123216網誌編寫"></category></entry><entry><title>41123216-W14</title><link href="./41123216-w14.html" rel="alternate"></link><published>2024-05-23T15:34:00+08:00</published><updated>2024-05-30T05:36:56+08:00</updated><author><name>Bee</name></author><id>tag:None,2024-05-23:./41123216-w14.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
