@@ -59,7 +59,7 @@ def main() :
     
     fileNew1.SetCanCreateAltrep(False)
     
-    fileNew1.NewFileName = "./football player\mod\\model1(0613).prt"
+    fileNew1.NewFileName = "./football player\model1(0613).prt"
     
     fileNew1.MasterFileName = ""
     
